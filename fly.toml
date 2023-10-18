@@ -10,6 +10,9 @@ kill_timeout = "5s"
 
 [build]
 
+[experimental]
+  auto_rollback = true
+
 [deploy]
   release_command = "npm run build"
 
