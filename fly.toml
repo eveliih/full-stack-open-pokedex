@@ -15,6 +15,7 @@ kill_timeout = "5s"
 
 [deploy]
   release_command = "npm run build"
+  strategy = "rolling"
 
 [env]
   PORT = "3000"
@@ -47,10 +48,11 @@ kill_timeout = "5s"
 
   [[services.http_checks]]
     interval = 10000
-    grace_period = "5s"
+    grace_period = "2s"
     method = "get"
     path = "/health"
     protocol = "http"
+    restart_limit = 0
     timeout = 2000
     tls_skip_verify = false
     [services.http_checks.headers]
