@@ -15,5 +15,3 @@ One option for CI in Java is Travis CI pipeline. It is a cloud-based service whi
 3. https://www.browserstack.com/guide/top-java-testing-frameworks
 4. https://www.lambdatest.com/blog/best-java-build-tools/
 5. https://www.lambdatest.com/blog/build-your-first-ci-cd-pipeline-with-travis-ci/
-
-test
