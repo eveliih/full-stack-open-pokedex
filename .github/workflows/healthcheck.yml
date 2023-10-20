@@ -1,8 +1,10 @@
+<!-- 
 name: Periodic health check
 
 on:
   schedule: 
      - cron:  '15 * * * *'
+
 jobs:
   url_health_check:
     runs-on: ubuntu-20.04
@@ -12,3 +14,4 @@ jobs:
         with:
           url: https://pokepoke.fly.dev/
   
+-->
