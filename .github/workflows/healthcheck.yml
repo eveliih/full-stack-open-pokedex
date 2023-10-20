@@ -1,4 +1,4 @@
-<!-- 
+
 name: Periodic health check
 
 on:
@@ -14,4 +14,3 @@ jobs:
         with:
           url: https://pokepoke.fly.dev/
   
--->
